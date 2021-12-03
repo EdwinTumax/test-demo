@@ -7,5 +7,9 @@ public class Sistema {
         }else {
             System.out.println("Es menor de edad");
         }
+        saludo("Edwin Tumax");
+    }
+    public static void saludo(String nombre){
+        System.out.println("Hola ".concat(nombre));
     }
 }
